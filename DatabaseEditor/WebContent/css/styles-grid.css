@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+#books_table_wrapper {
+	margin-top: 10 px;
+	margin-left: 10 px;
+	margin-right: 10 px;
+    /*border: 5px solid black;*/
+    font-family: Arial, Helvetica, sans-serif;
+    align: center;
+    /*font-size:larger;*/
+}
+table{
+	/*border: 1px solid black;*/
+}
+
+th {
+	background-color: #629fd2/*#4e94cd*//*#33b3a3*/;	/*#157e84*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*border: 1px solid black;*/
+}
+
+td {
+    /*border: 1px solid black;*/
+    font-family: Arial, Helvetica, sans-serif;
+    align: middle;
+    padding: 2px;
+}
+
+#dbcontrols {
+	margin-top: 60px;
+	display: inline-block;
+	width: 15%;
+	float: left;
+	position: fixed;
+/*	border: 1px dotted red;		*/
+}
+
+#datagrid {
+	display: inline-block;
+	width: 83%;
+	float: right;
+/*	border: 1px dotted green;	*/
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+.btn, .btn-primary {
+	width: 90px;
+	margin: 25px 70px ;
+}
+
+tr.odd		{background-color: #d7ffd7}
+.odd:hover 	{background-color: #f5f5f5}
+.even:hover {background-color: #f5f5f5}
+.even 		{background-color: #f0f5ff}

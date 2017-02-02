@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+
+#recordContainer {
+	margin-top: 30px;
+	margin-left: 100px;
+/*	border: 1px dotted red;*/
+}
+
+#recordControls {
+	margin-top:	20 px;
+	margin-left: 100px;
+/*	border: 1px dotted blue;*/
+}
+
+td, tr {
+	border: 10px solid white;
+/*	border: 1px dotted black;*/
+}
+
+.field {
+	width: 220px;
+}
+
+.btn, .btn-primary {
+	margin-top: 15px;
+	margin-left: 20px;
+}

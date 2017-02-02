@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="DatabaseEditor" default="war" basedir=".">
+
+	<target name="war">
+	<delete file="./DatabaseEditor.war" />
+		<war destfile="DatabaseEditor.war" webxml="./WEB-INF/web.xml">
+	      <fileset dir=".">
+	         <include name="**/*.*"/>
+	      </fileset>
+	      <classes dir="../build/classes"/>
+	   </war>
+	</target>
+
+</project>
